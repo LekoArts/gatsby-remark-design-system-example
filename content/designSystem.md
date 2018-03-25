@@ -1,10 +1,10 @@
-# Gatsby Design System
+# Design System created with Gatsby
 Use the specimens of [gatsby-remark-design-system](https://github.com/LeKoArts/gatsby-remark-design-system) to build your own styleguide or design system!
 Read the complete [README](https://github.com/LeKoArts/gatsby-remark-design-system) to see all options & examples in detail.
 
 [![GitHub license](https://img.shields.io/github/license/LeKoArts/gatsby-remark-design-system.svg?style=flat-square)](https://github.com/LeKoArts/gatsby-remark-design-system/blob/master/LICENSE)
 [![npm package](https://img.shields.io/npm/v/gatsby-remark-design-system.svg?style=flat-square)](https://www.npmjs.org/package/gatsby-remark-design-system)
-[![Twitter Follow](https://img.shields.io/twitter/follow/lekoarts_de.svg?style=flat-square)](https://twitter.com/lekoarts_de)
+[![LekoArts Homepage](https://img.shields.io/badge/lekoarts-homepage-blue.svg)](https://www.lekoarts.de)
 
 ## Audio
 
@@ -92,7 +92,7 @@ To link your logos and other resources you can use the **Download** specimen. Yo
 **Live Example**
 
 ```download
-title: Design Logo (.svg)
+title: Avatar Social
 subtitle: 8 KB
 src: "/logo.png"
 span: 3
@@ -117,7 +117,7 @@ Make it so!
 ```
 
 ```hint
-Neutrale Meldung
+Neutral Hint
 ```
 
 ```hint|warning
