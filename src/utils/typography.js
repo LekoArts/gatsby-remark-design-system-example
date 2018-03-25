@@ -18,6 +18,15 @@ const typography = new Typography({
     img: {
       marginBottom: 0,
     },
+    p: {
+      marginTop: '.5rem',
+      marginBottom: '1rem',
+    },
+    h2: {
+      marginTop: '3rem',
+      marginBottom: '1rem',
+      color: '#48ba6f',
+    },
   }),
 });
 

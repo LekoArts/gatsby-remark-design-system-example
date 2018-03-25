@@ -4,7 +4,7 @@ Read the complete [README](https://github.com/LeKoArts/gatsby-remark-design-syst
 
 [![GitHub license](https://img.shields.io/github/license/LeKoArts/gatsby-remark-design-system.svg?style=flat-square)](https://github.com/LeKoArts/gatsby-remark-design-system/blob/master/LICENSE)
 [![npm package](https://img.shields.io/npm/v/gatsby-remark-design-system.svg?style=flat-square)](https://www.npmjs.org/package/gatsby-remark-design-system)
-[![LekoArts Homepage](https://img.shields.io/badge/lekoarts-homepage-blue.svg)](https://www.lekoarts.de)
+[![LekoArts Homepage](https://img.shields.io/badge/lekoarts-homepage-blue.svg?style=flat-square)](https://www.lekoarts.de)
 
 ## Audio
 
@@ -17,6 +17,22 @@ If your brand has specific sounds for notifications or other sound signatures yo
 `name: string`  
 `span: number[1-6]` Width of the specimen  
 `src: string` The path/url to the file. Needs to be in quotes
+
+**Example**
+
+````
+```audio
+span: 3
+name: Sound File #1
+src: "/sound.mp3"
+```
+
+```audio
+span: 3
+name: Sound File #2
+src: "/sound.mp3"
+```
+````
 
 **Live Example**
 
@@ -41,16 +57,25 @@ The colors of your brand. The swatches also include checks on the accessibility 
 `color: string` Define the color (in HEX, e.g. #b0f6ff)  
 `name: string`
 
-**Live Example**
+**Example**
 
+````
 ```color
 name: Light Blue
 color: #b0f6ff
 ```
 
 ```color
-name: Dark Blue
-color: #3c6d84
+name: Smaragd
+color: #939d7b
+```
+````
+
+**Live Example**
+
+```color
+name: Light Blue
+color: #b0f6ff
 ```
 
 ```color
@@ -66,6 +91,16 @@ A sequence of colors showing different shades. The **Color-Palette** also conver
 
 `name: string, color: string`  
 Each line represents a color. First define the name then after a comma the HEX value
+
+**Example**
+
+````
+```color-palette
+T400 - Shabby, #448c6c
+T300 - Legendary, #dca114
+T200 - Smoke, #6c3b0b
+```
+````
 
 **Live Example**
 
@@ -89,6 +124,20 @@ To link your logos and other resources you can use the **Download** specimen. Yo
 `title: string`  
 `width: string` The width of the preview image (default: 200px)
 
+**Example**
+
+````
+```download
+color: white
+image: true
+span: 3
+src: "/logo.png"
+subtitle: 8KB
+title: Avatar Social
+width: 250px
+```
+````
+
 **Live Example**
 
 ```download
@@ -109,6 +158,22 @@ Do give neutral hints or when talking about Dos & Don'ts you can use the **Hint*
 `directive` Green, positive note for showing Dos  
 `warning` Red, warning note for showing Don'ts  
 `neutral` Neutral note (Default)
+
+**Example**
+
+````
+```hint|directive
+Make it so!
+```
+
+```hint
+Neutral Hint
+```
+
+```hint|warning
+nooooooooo, not this way
+```
+````
 
 **Live Example**
 
@@ -133,11 +198,20 @@ You can use the **Typography** specimen to keep the numbers of different styles 
 `size: number|weight: number|metrics: string|weightDesc: string|usage: string`  
 Each line represents a type. You have to define the values in the mentioned order and seperate with `|`
 
+**Example**
+
+````
+```typography
+42|700|Display|42, line height is 1.1x|Bold, 700|Display type is used for visual impact and emphasis
+32|400|Page title|32, line height is 1.1x|Normal, 400|Page title is used to provide hiearchy
+```
+````
+
 **Live Example**
 
 ```typography
 42|700|Display|42, line height is 1.1x|Bold, 700|Display type is used for visual impact and emphasis
-32|400|Page title|32, line height is 1.1x|Normal, 400|Page title is used to provide hiearchy. As its name suggest, it's used for labeling a page, modal or view
+32|400|Page title|32, line height is 1.1x|Normal, 400|Page title is used to provide hiearchy.
 ```
 
 ## Video
@@ -151,6 +225,19 @@ You can use the **Video** specimen to include intros or other videos.
 `muted: boolean` Default: false  
 `name: string`  
 `src: string` The path/url to the file. Needs to be in quotes  
+
+**Example**
+
+````
+```video
+autoplay: false
+loop: false
+muted: false
+name: Animation Video
+src: "https://www.w3schools.com/html/mov_bbb.mp4"
+span: 3
+```
+````
 
 **Live Example**
 
