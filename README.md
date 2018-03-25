@@ -1,7 +1,7 @@
 # gatsby-remark-design-system-example
 > Example project showing the gatsby-remark-design-system plugin for Gatsby.js
 
-See it [live in action]()!
+See it [live in action](https://gatsby-remark-design-system.netlify.com/)!
 
 ## Plugin
 

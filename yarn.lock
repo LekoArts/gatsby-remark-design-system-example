@@ -3778,8 +3778,8 @@ gatsby-remark-autolink-headers@^1.4.13:
     unist-util-visit "^1.1.1"
 
 gatsby-remark-design-system@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-design-system/-/gatsby-remark-design-system-1.0.3.tgz#cdbd31cdd0c724175854e620fbdf873018cddbc2"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-design-system/-/gatsby-remark-design-system-1.0.4.tgz#430009c45796e062648f77c28fa8a0aa2030f244"
   dependencies:
     babel-runtime "^6.26.0"
     lodash "^4.17.5"
