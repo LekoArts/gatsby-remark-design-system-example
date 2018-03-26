@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import '../utils/prism-theme.scss';
-
-require('gatsby-remark-design-system/theme/gatsby-remark-design-system-theme.scss');
+import './base.scss';
 
 const TemplateWrapper = ({ children }) => (
   <div>

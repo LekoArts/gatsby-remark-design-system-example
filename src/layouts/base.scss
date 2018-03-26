@@ -1,0 +1,8 @@
+// Override the variables of the theme
+
+$primary: orange;
+
+// Import your other scss files here. Use the same variables to keep things consistent :)
+
+// Import the theme!
+@import '~gatsby-remark-design-system/theme/gatsby-remark-design-system-theme.scss';

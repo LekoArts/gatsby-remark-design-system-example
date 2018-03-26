@@ -1,5 +1,5 @@
 # Design System created with Gatsby
-Use the specimens of [gatsby-remark-design-system](https://github.com/LeKoArts/gatsby-remark-design-system) to build your own styleguide or design system!
+Use the specimens of [gatsby-remark-design-system](https://github.com/LeKoArts/gatsby-remark-design-system) to build your own styleguide or design system!  
 Read the complete [README](https://github.com/LeKoArts/gatsby-remark-design-system) to see all options & examples in detail.
 
 [![GitHub license](https://img.shields.io/github/license/LeKoArts/gatsby-remark-design-system.svg?style=flat-square)](https://github.com/LeKoArts/gatsby-remark-design-system/blob/master/LICENSE)
