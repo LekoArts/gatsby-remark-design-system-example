@@ -24,8 +24,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "format": "prettier --write 'src/**/*.js'",
-    "lint": "eslint **/*.js --ignore-pattern node_modules/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
