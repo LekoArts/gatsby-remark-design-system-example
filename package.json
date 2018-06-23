@@ -1,7 +1,6 @@
 {
   "name": "gatsby-remark-design-system-example",
-  "description":
-    "Example project to showcase the gatsby-remark-design-sytem plugin",
+  "description": "Example project to showcase the gatsby-remark-design-sytem plugin",
   "version": "1.0.0",
   "author": "LekoArts <hello@lekoarts.de>",
   "dependencies": {
@@ -18,7 +17,11 @@
     "gatsby-transformer-remark": "^1.7.37",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby", "gatsby-starter", "gatsby-example"],
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "gatsby-example"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

@@ -149,6 +149,28 @@ color: white
 image: true
 ```
 
+## Example
+
+Insert your HTML code and see a live preview above the code sample.
+
+**Options**
+
+None
+
+**Example**
+
+````
+```example
+<button>You can insert your HTML here</button>
+```
+````
+
+**Live Example**
+
+```example
+<button>You can insert your HTML here</button>
+```
+
 ## Hint
 
 Do give neutral hints or when talking about Dos & Don'ts you can use the **Hint** specimen.

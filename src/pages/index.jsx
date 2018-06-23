@@ -4,7 +4,7 @@ const IndexPage = props => {
   const postNode = props.data.markdownRemark;
   return (
     <div className="example-page">
-      <div className="grds-page" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+      <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
     </div>
   );
 };
