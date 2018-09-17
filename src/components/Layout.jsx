@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import '../utils/prism-theme.scss';
 import './base.scss';
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children }) => (
   <div>
     <Helmet
       title="Gatsby Design System - Example"
@@ -23,13 +23,13 @@ const TemplateWrapper = ({ children }) => (
         padding: '2rem 1.0875rem 1.45rem 2rem',
       }}
     >
-      {children()}
+      {children}
     </div>
   </div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+Layout.propTypes = {
+  children: PropTypes.any,
 };
 
-export default TemplateWrapper;
+export default Layout;

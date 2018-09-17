@@ -5,4 +5,5 @@ $primary: orange;
 // Import your other scss files here. Use the same variables to keep things consistent :)
 
 // Import the theme!
+// @import '../../plugins/gatsby-remark-design-system/theme/gatsby-remark-design-system-theme.scss';
 @import '~gatsby-remark-design-system/theme/gatsby-remark-design-system-theme.scss';
